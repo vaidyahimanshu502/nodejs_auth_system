@@ -1,0 +1,23 @@
+#hometown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    margin: 0px auto;
+}
+
+#hometown-container h1 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(11, 251, 63);
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 8px;
+}
+
+#hometown-container h1 a:hover {
+    background: black;
+    box-shadow: 5px 5px 5px 5px rgb(250, 4, 4);
+    color: azure;
+}

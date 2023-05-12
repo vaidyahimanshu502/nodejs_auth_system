@@ -1,0 +1,22 @@
+<h1>Sign-Up-Page | Authenticate </h1>
+<div id="sign-up-form-container">
+    <form action="/user/create-user" method="Post">
+        <div>
+            <label for="name">Name:-</label>
+            <input type="text" name="name" placeholder="enter name..." required id="name">
+        </div>
+        <div>
+            <label for="email">Email:-</label>
+            <input type="email" name="email" placeholder="enter email..." id="email">
+        </div>
+        <div>
+            <label for="password">Passw:-</label>
+            <input type="password" name="password" placeholder="enter password..." id="password">
+        </div>      
+       <input type="submit" value="Submit" id="auth-form-btn">
+    </form>
+    <h2>
+        <a href="/user/auth/google">Google SignIn | SignUp</a>
+        <a href="/">Forgot-Password?</a>
+    </h2>
+</div>

@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/authenticate_img.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    position: -webkit-sticky;
+    grid-template-rows: 1fr auto;
+}
+
+#main-container {
+    height: 100vh;
+}

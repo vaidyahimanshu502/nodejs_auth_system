@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    color: rgb(242, 233, 233);
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#sign-up-form-container {
+    /* background-image: url("../images/auth.jpg"); */
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-size: 85% 80%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 50%;
+    margin: 0px auto;
+    padding: 10px;
+    box-shadow: 10px 10px 12px 10px black;
+}
+#sign-up-form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#sign-up-form-container form input {
+ width: 60%;
+ height: 1.5rem;
+ border-radius: 10px;
+ box-shadow: 5px 5px 5px 5px black;
+ margin: 15px;
+ padding: 5px;
+ font-size: 18px;
+ text-align: center;
+}
+
+#sign-up-form-container form label {
+    text-align: left;
+    color: rgb(247, 238, 238);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sign-up-form-container form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#sign-up-form-container h2 a {
+    color: azure;
+    font-weight: 900;
+    background: rgb(35, 6, 223);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 3px 3px 4px 3px black;
+    margin-left: 2rem;
+    border-radius: 3px;
+}
+
+#sign-up-form-container h2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#sign-up-form-container form #auth-form-btn {
+    width: 20%;
+    padding: 3px;
+    margin: 10px;
+    font-size: 30px;
+    height: 2.5rem;
+    border: 3px solid red;
+    border-radius: 8px;
+    background: green;
+}
+
+#sign-up-form-container form #auth-form-btn:hover{
+    background-image: linear-gradient(to top right, rgba(171, 171, 178, 0.5), rgba(20, 19, 19, 0.5));
+    box-shadow: 3px 3px 4px 3px red;
+    border: 3px solid black;
+}
+

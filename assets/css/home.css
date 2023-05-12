@@ -1,0 +1,22 @@
+#home-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#home-btn a {
+    background-image: linear-gradient(to top right, blue, red);
+    font-size: 70px;
+    color: rgb(232, 224, 224);
+    box-shadow: 8px 8px 10px 8px black;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+#home-btn a:hover {
+    background-image: linear-gradient(to top right, rgb(171, 171, 178), rgb(20, 19, 19));
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+<div id="header-container">
+   <div>
+       <h2>System-Authentication</h2>
+   </div>
+   <div>
+       <ul>           
+            <% if (title != 'Home | Town') { %>
+                   <li><a href="/user/sign-in">Sign-In</a></li>
+                   <li><a href="/user/sign-up">Sign-Up</a></li>              
+           <% } else { %>
+                    <li><a href="/user/sign-in">Sign-In</a></li>
+                    <li><a href="/user/sign-up">Sign-Up</a></li>
+                    <li><a href="/user/sign-out">Log-Out</a></li>                    
+            <% } %>
+       </ul>
+   </div>
+</div>

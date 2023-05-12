@@ -1,0 +1,55 @@
+#reset-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin: 0px auto;
+}
+
+#reset-page-container form  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px black;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#reset-page-container h1 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 8px;
+    background-color: azure;
+    
+}
+
+#reset-page-container form input {
+    width: 50%;
+    margin: 12px;
+    height: 1.5rem;
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 5px;
+}
+
+#reset-page-container form #email-btn {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(251, 11, 11);
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 8px;
+    font-size: 24px;
+    color: azure;
+    width: 30%;
+    padding: 5px;
+    height: 3rem;
+}
+
+#reset-page-container form #email-btn:hover {
+    background: black;
+    box-shadow: 3px 3px 3px 3px rgb(250, 4, 4);
+    color: azure;
+}

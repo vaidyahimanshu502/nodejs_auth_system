@@ -1,0 +1,44 @@
+#reset-page-container #set-pass-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px black;
+    width: 100%;
+    border-radius: 8px;
+}
+
+#reset-page-container #set-pass-form input {
+    width: 50%;
+    margin: 12px;
+    height: 1.5rem;
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 5px;
+}
+
+#reset-page-container #set-pass-form #confirm {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(251, 11, 11);
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 8px;
+    font-size: 24px;
+    color: azure;
+    width: 30%;
+    padding: 5px;
+    height: 3rem;
+}
+
+#reset-page-container #set-pass-form #confirm:hover {
+    background: black;
+    box-shadow: 3px 3px 3px 3px rgb(250, 4, 4);
+    color: azure;
+}
+
+#reset-page-container #set-pass-form label {
+    text-align: left;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

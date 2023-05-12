@@ -1,0 +1,78 @@
+#sign-in-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 50%;
+    margin: 0px auto;
+    color: rgb(235, 231, 231);
+    box-shadow: 5px 5px 6px 5px rgba(16, 16, 16, 0.5);
+    margin-top: 3rem;
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sign-in-page-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-in-page-container form input {
+    width: 60%;
+    height: 1.5rem;
+    margin: 10px;
+    box-shadow: 2px 2px 3px 2px black;
+    border-radius: 8px;
+}
+
+#sign-in-page-container form label {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(220, 216, 216);
+    text-shadow: 1px 1px 2px 1px rgb(255, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sign-in-page-container form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#sign-in-page-container form #sign-in-btn {
+    font-size: 20px;
+    height: 2rem;
+    width: 7rem;
+    margin-left: 5rem;
+    background: green;
+    font-weight: 700;
+}
+#sign-in-page-container form #sign-in-btn:hover {
+    box-shadow: 2px 2px 3px 2px rgb(255, 255, 255);
+    background: black;
+    color: azure;
+}
+
+#sign-in-page-container h2 a {
+    color: azure;
+    font-weight: 900;
+    background: rgb(35, 6, 223);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 3px;
+    box-shadow: 3px 3px 4px 3px black;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#sign-in-page-container h2 a:hover {
+    color: red;
+    text-decoration: underline;
+}
