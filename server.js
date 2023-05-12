@@ -17,7 +17,7 @@ const customMWare = require('./config/flash_middleware');
 // });
 const flash = require('connect-flash');
 
-const port = process.env.port;
+const port = process.env.port || 8000
 const app = express();
 
 //setup url encoded with body parser
